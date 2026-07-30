@@ -8,11 +8,13 @@
   },
   "scripts": {
     "check:biome": "biome ci .",
+    "check:packages": "publint packages/biome-config --strict --pack npm",
     "check": "pnpm check:biome && pnpm check:packages",
     "fix": "biome check --write ."
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.6",
-    "@sory-world/biome-config": "workspace:*"
+    "@sory-world/biome-config": "workspace:*",
+    "publint": "0.3.22"
   }
 }
