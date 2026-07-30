@@ -1,0 +1,20 @@
+{
+	"name": "@sory-world/biome-config",
+	"version": "0.0.0",
+	"type": "module",
+	"sideEffects": false,
+	"files": [
+		"biome.json"
+	],
+	"exports": {
+		"./base": "./base.json",
+		"./package.json": "./package.json"
+	},
+	"peerDependencies": {
+		"@biomejs/biome": ">=2.5.0 <3"
+	},
+	"publishConfig": {
+		"access": "public",
+		"provenance": true
+	}
+}
