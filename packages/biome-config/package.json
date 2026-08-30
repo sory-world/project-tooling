@@ -10,6 +10,11 @@
     "./base": "./base.json",
     "./package.json": "./package.json"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sory-world/project-tooling.git",
+    "directory": "packages/biome-config"
+  },
   "peerDependencies": {
     "@biomejs/biome": ">=2.5.0 <3"
   },

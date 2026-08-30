@@ -10,7 +10,8 @@
     "check:biome": "biome ci .",
     "check:packages": "publint packages/biome-config --strict --pack npm",
     "check": "pnpm check:biome && pnpm check:packages",
-    "fix": "biome check --write ."
+    "fix": "biome check --write .",
+    "publish:all": "pnpm -r publish"
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.6",
